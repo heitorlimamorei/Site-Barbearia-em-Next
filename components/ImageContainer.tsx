@@ -9,7 +9,7 @@ export default function ImageContainer({
 }) {
   return (
     <div className={`flex ${classNames}`}>
-      <img src={src} className="w-[1215px] h-[600px]" />
+      <img src={src} className="w-full h-[600px]" />
     </div>
   );
 }

@@ -1,12 +1,10 @@
-import Container from "../components/Container";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+
 import TextContainer from "../components/TxtContainer";
 import ImageContainer from "../components/ImageContainer";
+import Layout from "../components/Layout";
 export default function Home() {
   return (
-    <Container>
-      <Header />
+    <Layout>
       <ImageContainer
         src="https://graces.com.br/wp-content/uploads/2019/02/o-que-nao-pode-faltar-na-sua-barbearia-equipamentos.jpg"
         classNames="mb-5"
@@ -31,7 +29,6 @@ export default function Home() {
         O atendimento possui padrão de excelência e agilidade, garantindo
         qualidade e satisfação dos nossos clientes.
       </TextContainer>
-      <Footer />
-    </Container>
+    </Layout>
   );
 }
