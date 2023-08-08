@@ -4,7 +4,8 @@ import ImageContainer from "../components/ImageContainer";
 import Layout from "../components/Layout";
 export default function Home() {
   return (
-    <Layout>
+    <Layout classNames="bg-gray-400">
+      <div className="h-screen bg-gray-400 mb-3">
       <ImageContainer
         src="https://graces.com.br/wp-content/uploads/2019/02/o-que-nao-pode-faltar-na-sua-barbearia-equipamentos.jpg"
         classNames="mb-5"
@@ -25,10 +26,11 @@ export default function Home() {
         Oferecernos profissionais experientes e antenados às mudanças no mundo
         da moda.
       </TextContainer>
-      <TextContainer variant="p" classNames="text-md mb-3">
+      <TextContainer variant="p" classNames="text-md mb-3 pb-3 bg-gray-400">
         O atendimento possui padrão de excelência e agilidade, garantindo
         qualidade e satisfação dos nossos clientes.
       </TextContainer>
+      </div>
     </Layout>
   );
 }

@@ -14,7 +14,7 @@ export default function Product({ product }: { product: IProductProps }) {
        <h1 className='font-semibold text-xl'>
         {name}
       </h1>
-      <img src={imgUrl} alt=""  className='rounded-xl shadow-md'/>
+      <img src={imgUrl} alt=""  className='rounded-xl shadow-md max-h-[400px]'/>
       <p className='text-md mt-2'>
         {description}
       </p>

@@ -13,10 +13,10 @@ export default function Footer({ classNames }: { classNames?: string }) {
   ]
   return (
     <footer className={`flex w-full justify-between bg-gray-600 py-5 px-4 ${classNames}`}>
-      <div>
-        Logo
+      <div className="flex justify-center items-center">
+        <img src="https://th.bing.com/th/id/OIG.mARqpGWgUXM1FqESmA.A?pid=ImgGn" alt="" className="w-[80px] h-[80px] rounded-full shadow-2xl" />
       </div>
-      <div>
+      <div className="flex justify-center items-center">
         <ul className="flex">
           {pages.map((service) => {
             return (
